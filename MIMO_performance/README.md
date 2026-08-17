@@ -62,16 +62,16 @@ The capacity-related scripts evaluate the achievable rate of a MIMO channel unde
 
 ## File Summary
 
-- **`Project_03_ZF_MMSE_Receiver.m`**  
+- **`ZF_vs_MMSE.m`**  
   BER comparison of ZF and LMMSE receivers.
 
-- **`Project_04_MATLAB_MIMO_Optimization.m`**  
+- **`Power_allocation.m`**  
   Capacity comparison of equal power vs water-filling allocation.
 
-- **`OPT_CAP_MIMO.m`**  
+- **`waterfill.m`**  
   Implements optimal (water-filling) capacity computation.
 
-- **`EQ_CAP_MIMO.m`**  
+- **`equal_power.m`**  
   Implements equal power capacity computation.
 
 - **`mimo_capacity.m`**  

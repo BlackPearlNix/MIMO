@@ -10,7 +10,7 @@ import pdb
 
 
 def Dmatrix(K):
-    var_nr = (10**(8/10))**2; mean_nr = 3;
+    var_nr = (10**(8/10))**2; mean_nr = 3
     mu_nr = np.log10(mean_nr**2/np.sqrt(var_nr+mean_nr**2)); 
     sigma_nr = np.sqrt(np.log10(var_nr/(mean_nr**2+1)));
     nr = np.random.lognormal(mu_nr,sigma_nr,K);

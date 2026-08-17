@@ -29,7 +29,7 @@ Capacity_EQ = Capacity_EQ/numBlocks;
 plot(SNRdB,Capacity_OPT,'b-s','linewidth',3.0,'MarkerFaceColor','b','MarkerSize',9.0);
 hold on;
 plot(SNRdB,Capacity_EQ,'r-.o','linewidth',3.0,'MarkerFaceColor','r','MarkerSize',9.0);
-grid on
+grid on;
 legend('OPT','Equal','Location','NorthWest');
 title('MIMO Capacity vs SNR(dB)')
 xlabel('SNR (dB)')

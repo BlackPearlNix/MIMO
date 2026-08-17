@@ -1,7 +1,7 @@
 function CAP = waterfill(Heff,SNR);
 S = svd(Heff)';
 t = length(S);
-CAP = 0;
+CAP = 0
 
 
 while ~CAP

@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import mMIMO
 
 
-ITER = 5000;
+ITER = 5000
 K = 10; # number of users
 Mv = np.arange(20,820,30); # number of BS antennas
 Eu_dB = 15;  Eu = 10**(Eu_dB/10);

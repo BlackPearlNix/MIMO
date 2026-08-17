@@ -54,7 +54,7 @@ hold on;
 semilogy(SNRdB,BERt,'g -.','linewidth',3.0,'MarkerFaceColor','g','MarkerSize',9.0);
 semilogy(SNRdB,BER_LMMSE,'r -- o','linewidth',3.0,'MarkerFaceColor','r','MarkerSize',9.0);
 axis tight;
-grid on;
+grid on
 legend('ZF','ZF Theory','LMMSE')
 xlabel('SNR (dB)');
 ylabel('BER');

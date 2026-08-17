@@ -23,7 +23,7 @@ A Python-based simulation environment to evaluate the **achievable rate** of Mas
 
 ## Linear Receivers Simulated
 
-This project simulates two commonly used linear receivers for symbol estimation at the BS:
+This project simulates two commonly used linear receivers for symbol estimation at the BS. The simulation file is `massive_MIMO_rx.py`.
 
 ### 1) Maximal Ratio Combining (MRC)
 
